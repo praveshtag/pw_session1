@@ -7,7 +7,7 @@
         <methods>
           <include name="setup"/>
           <include name="homePageURLTest"/>
-          <include name="searchTest"/>
+          <include name="searchTest" invocation-numbers="0 1 2"/>
           <include name="homePageTitleTest"/>
           <include name="tearDown"/>
         </methods>
@@ -21,12 +21,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.opencart.tests.LoginPageTest -->
-      <class name="com.qa.opencart.base.BaseTest">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.qa.opencart.base.BaseTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

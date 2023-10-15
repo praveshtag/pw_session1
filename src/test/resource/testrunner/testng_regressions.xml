@@ -7,14 +7,12 @@
 		<listener class-name="com.qa.opencart.listeners.ExtendReportListener" />
 </listeners>
 	
-	<test name="Search on Home Page Test1">
-		<parameter name="browser" value="firefox" />
+	<test name="Search on Home Page Test1">		
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>
 	</test> 
-	<test name="Login to Home Page Test2">
-	<parameter name="browser" value="edge" />
+	<test name="Login to Home Page Test2">	
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
