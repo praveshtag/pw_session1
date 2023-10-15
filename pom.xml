@@ -22,7 +22,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.microsoft.playwright</groupId>			
+			<groupId>com.microsoft.playwright</groupId>
 			<artifactId>playwright</artifactId>
 			<version>1.38.0</version>
 		</dependency>
@@ -32,19 +32,19 @@
 			<artifactId>testng</artifactId>
 			<version>7.8.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-slf4j-impl</artifactId>
 			<version>2.20.0</version>
 		</dependency>
-		
+
 		<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>5.1.1</version>
-    
-</dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.1</version>
+
+		</dependency>
 
 
 	</dependencies>
@@ -73,14 +73,14 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
-					
+
 					<configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>src/test/resource/testrunner/testng_regressions.xml</suiteXmlFile>
-          </suiteXmlFiles>
-          
-        </configuration>
-					
+						<suiteXmlFiles>
+							<suiteXmlFile>
+								src/test/resource/testrunner/testng_regressions.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
@@ -104,7 +104,7 @@
 					<artifactId>maven-project-info-reports-plugin</artifactId>
 					<version>3.0.0</version>
 				</plugin>
-				
+
 			</plugins>
 		</pluginManagement>
 	</build>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="36.613" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="32.582" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\prave\AppData\Local\Temp\surefire10436678725932136502\surefirebooter16415187248937659318.jar C:\Users\prave\AppData\Local\Temp\surefire10436678725932136502 2023-10-15T12-55-23_155-jvmRun1 surefire6053999008068782594tmp surefire_04182998372342380859tmp"/>
+    <property name="sun.java.command" value="C:\Users\prave\AppData\Local\Temp\surefire10014835224039065901\surefirebooter9752512246307317502.jar C:\Users\prave\AppData\Local\Temp\surefire10014835224039065901 2023-10-15T16-29-26_652-jvmRun1 surefire2576215536284698661tmp surefire_01161666747695835611tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\PlayWriteStuff\PlaywrightPOMSeries\target\test-classes;D:\PlayWriteStuff\PlaywrightPOMSeries\target\classes;C:\Users\prave\.m2\repository\com\microsoft\playwright\playwright\1.38.0\playwright-1.38.0.jar;C:\Users\prave\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\prave\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\prave\.m2\repository\com\microsoft\playwright\driver\1.38.0\driver-1.38.0.jar;C:\Users\prave\.m2\repository\com\microsoft\playwright\driver-bundle\1.38.0\driver-bundle-1.38.0.jar;C:\Users\prave\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\prave\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\prave\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\prave\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\prave\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.20.0\log4j-slf4j-impl-2.20.0.jar;C:\Users\prave\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\prave\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\prave\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\prave\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\prave\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\prave\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\prave\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\prave\AppData\Local\Temp\surefire10436678725932136502\surefirebooter16415187248937659318.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\prave\AppData\Local\Temp\surefire10014835224039065901\surefirebooter9752512246307317502.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
@@ -50,27 +50,27 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14\bin;C:\Program Files\apache-maven-3.8.8\bin;C:\ProgramData\Oracle\Java\javapath\;C:\Android;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\Oracle\Java\javapath\;C:\Program Files\Java\jdk-14\bin;C:\Program Files\Java\jdk-12.0.2\bin;D:\Sakshi\python\PyCharm 2020.2.3\bin;;D:\Sakshi\python\PyCharm Community Edition 2020.2.3\bin;;C:\Program Files\Azure Data Studio\bin;C:\Users\prave\AppData\Roaming\npm;C:\Users\prave\.dotnet\tools;D:\C Drive Installation\IntelliJ IDEA Community Edition 2023.2.1\bin;;C:\Users\prave\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\\bin;C:\Program Files\apache-maven-3.8.8\bin;C:\ProgramData\Oracle\Java\javapath\;C:\Android;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\Oracle\Java\javapath\;C:\Program Files\Java\jdk-14\bin;C:\Program Files\Java\jdk-12.0.2\bin;D:\Sakshi\python\PyCharm 2020.2.3\bin;;D:\Sakshi\python\PyCharm Community Edition 2020.2.3\bin;;C:\Program Files\Azure Data Studio\bin;C:\Users\prave\AppData\Roaming\npm;C:\Users\prave\.dotnet\tools;D:\C Drive Installation\IntelliJ IDEA Community Edition 2023.2.1\bin;;C:\Users\prave\AppData\Local\GitHubDesktop\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="homePageTitleTest" classname="com.qa.opencart.tests.HomePageTest" time="0.707"/>
-  <testcase name="homePageTitleTest" classname="com.qa.opencart.tests.HomePageTest" time="1.013"/>
-  <testcase name="homePageURLTest" classname="com.qa.opencart.tests.HomePageTest" time="0.347"/>
-  <testcase name="homePageURLTest" classname="com.qa.opencart.tests.HomePageTest" time="0.457"/>
-  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.183"/>
-  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.79"/>
-  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.541"/>
-  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.275"/>
-  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="1.464"/>
-  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.569"/>
-  <testcase name="loginPageNavigationTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.642"/>
-  <testcase name="loginPageNavigationTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.866"/>
-  <testcase name="ForgetPasswordLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.266"/>
-  <testcase name="ForgetPasswordLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.212"/>
-  <testcase name="appLoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="10.016"/>
-  <testcase name="appLoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="11.165"/>
+  <testcase name="homePageTitleTest" classname="com.qa.opencart.tests.HomePageTest" time="1.361"/>
+  <testcase name="homePageTitleTest" classname="com.qa.opencart.tests.HomePageTest" time="0.771"/>
+  <testcase name="homePageURLTest" classname="com.qa.opencart.tests.HomePageTest" time="0.516"/>
+  <testcase name="homePageURLTest" classname="com.qa.opencart.tests.HomePageTest" time="0.392"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.488"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.366"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.511"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.953"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.334"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="1.983"/>
+  <testcase name="loginPageNavigationTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.721"/>
+  <testcase name="loginPageNavigationTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.35"/>
+  <testcase name="ForgetPasswordLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="1.032"/>
+  <testcase name="ForgetPasswordLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.252"/>
+  <testcase name="appLoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="10.418"/>
+  <testcase name="appLoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="10.661"/>
 </testsuite>

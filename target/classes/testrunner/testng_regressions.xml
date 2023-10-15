@@ -14,19 +14,19 @@
 		</classes>
 	</test> 
 	<test name="Login Page Test1">
-	<parameter name="browser" value="chromium" />
+	<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test> 
 	<test name="Home Page Test2">
-		<parameter name="browser" value="edge" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>
 	</test> 
 	<test name="Login Page Test2">
-	<parameter name="browser" value="safari" />
+	<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
