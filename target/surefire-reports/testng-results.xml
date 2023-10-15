@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="8" passed="0" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-15T10:17:08 GMT-04:00" name="Surefire suite" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="17863">
+  <suite started-at="2023-10-15T10:25:42 GMT-04:00" name="Surefire suite" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="17691">
     <groups>
     </groups>
-    <test started-at="2023-10-15T10:17:08 GMT-04:00" name="Surefire test" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="17863">
+    <test started-at="2023-10-15T10:25:42 GMT-04:00" name="Surefire test" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="17691">
       <class name="com.qa.opencart.base.BaseTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.base.BaseTest@a37aefe]" started-at="2023-10-15T10:17:08 GMT-04:00" name="setup" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="17279" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.base.BaseTest@a37aefe]" started-at="2023-10-15T10:25:42 GMT-04:00" name="setup" finished-at="2023-10-15T10:25:59 GMT-04:00" duration-ms="17220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.base.BaseTest@a37aefe]" started-at="2023-10-15T10:17:26 GMT-04:00" name="tearDown" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.base.BaseTest@a37aefe]" started-at="2023-10-15T10:26:00 GMT-04:00" name="tearDown" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.base.BaseTest -->
       <class name="com.qa.opencart.tests.HomePageTest">
-        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@26df6e3a]" started-at="2023-10-15T10:17:26 GMT-04:00" name="homePageTitleTest" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="5" status="FAIL">
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@26df6e3a]" started-at="2023-10-15T10:26:00 GMT-04:00" name="homePageTitleTest" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="4" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.qa.opencart.pages.HomePage.getHomePageTitle()" because "this.homePage" is null]]>
@@ -64,7 +64,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method signature="homePageURLTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@26df6e3a]" started-at="2023-10-15T10:17:26 GMT-04:00" name="homePageURLTest" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="3" status="FAIL">
+        <test-method signature="homePageURLTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@26df6e3a]" started-at="2023-10-15T10:26:00 GMT-04:00" name="homePageURLTest" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.qa.opencart.pages.HomePage.getHomePageURL()" because "this.homePage" is null]]>
@@ -111,7 +111,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageURLTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@26df6e3a]" started-at="2023-10-15T10:17:26 GMT-04:00" name="searchTest" data-provider="getProductData" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="1" status="FAIL">
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@26df6e3a]" started-at="2023-10-15T10:26:00 GMT-04:00" name="searchTest" data-provider="getProductData" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@26df6e3a]" started-at="2023-10-15T10:17:26 GMT-04:00" name="searchTest" data-provider="getProductData" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="1" status="FAIL">
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@26df6e3a]" started-at="2023-10-15T10:26:00 GMT-04:00" name="searchTest" data-provider="getProductData" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -219,7 +219,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@26df6e3a]" started-at="2023-10-15T10:17:26 GMT-04:00" name="searchTest" data-provider="getProductData" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="1" status="FAIL">
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@26df6e3a]" started-at="2023-10-15T10:26:00 GMT-04:00" name="searchTest" data-provider="getProductData" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -275,7 +275,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- searchTest -->
       </class> <!-- com.qa.opencart.tests.HomePageTest -->
       <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method signature="loginPageNavigationTest()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@4a3631f8]" started-at="2023-10-15T10:17:26 GMT-04:00" name="loginPageNavigationTest" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="1" status="FAIL">
+        <test-method signature="loginPageNavigationTest()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@4a3631f8]" started-at="2023-10-15T10:26:00 GMT-04:00" name="loginPageNavigationTest" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.qa.opencart.pages.HomePage.navigateToLoginPage()" because "this.homePage" is null]]>
@@ -322,7 +322,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageNavigationTest -->
-        <test-method signature="ForgetPasswordLinkExistTest()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@4a3631f8]" started-at="2023-10-15T10:17:26 GMT-04:00" name="ForgetPasswordLinkExistTest" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="6" status="FAIL">
+        <test-method signature="ForgetPasswordLinkExistTest()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@4a3631f8]" started-at="2023-10-15T10:26:00 GMT-04:00" name="ForgetPasswordLinkExistTest" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="4" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.qa.opencart.pages.LoginPage.isForgotPwdLinkExist()" because "this.loginPage" is null]]>
@@ -369,7 +369,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ForgetPasswordLinkExistTest -->
-        <test-method signature="appLoginTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@4a3631f8]" started-at="2023-10-15T10:17:26 GMT-04:00" name="appLoginTest" finished-at="2023-10-15T10:17:26 GMT-04:00" duration-ms="1" status="FAIL">
+        <test-method signature="appLoginTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@4a3631f8]" started-at="2023-10-15T10:26:00 GMT-04:00" name="appLoginTest" finished-at="2023-10-15T10:26:00 GMT-04:00" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "this.prop" is null]]>
