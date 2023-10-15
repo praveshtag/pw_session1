@@ -4,15 +4,16 @@
   <listeners>
     <listener class-name="com.qa.opencart.listeners.ExtendReportListener"/>
   </listeners>
-  <test thread-count="2" parallel="tests" name="Search on Home Page Test1(failed)" verbose="4">
+  <test thread-count="2" parallel="tests" name="Home Page Test2(failed)" verbose="4">
+    <parameter name="browser" value="edge"/>
     <classes>
       <class name="com.qa.opencart.tests.HomePageTest">
         <methods>
           <include name="setup"/>
-          <include name="searchTest" invocation-numbers="2"/>
+          <include name="searchTest" invocation-numbers="1"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.opencart.tests.HomePageTest -->
     </classes>
-  </test> <!-- Search on Home Page Test1(failed) -->
+  </test> <!-- Home Page Test2(failed) -->
 </suite> <!-- Failed suite [Open Cart Test Regression PW Suite] -->
